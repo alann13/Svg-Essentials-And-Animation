@@ -43,3 +43,23 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 - `role="presentation"` in svg means to not have screen read all the svg data.
 - Additional reading https://www.tpgi.com/using-aria-enhance-svg-accessibility/ and https://css-tricks.com/accessible-svgs/
   </details>
+
+<details>
+  <summary>CSS Animation</summary>
+
+- SVG optimization tool : https://jakearchibald.github.io/svgomg/
+- Starting an SVG protip:
+
+  - Put everything in the viewbox first.
+  - Whatever doesn't need to be there initially can have it's opacity set to 0.
+  - Slowly unveil things as you go.
+
+- Planning animation : pen and paper, storyboards etc.
+- For img src, object, embed, background url and iframe, you can only designate animation if inside the SVG.
+- For inline, both SVG animation and interaction are supported.
+- SVG tag is an html element. Thus, it has a background. We may unintentionally style this background. Something to look out for.
+- Background property styling doesn't work for SVG. We use fill and stroke.
+- SVG is built for drawing. CSS is built for layouts.
+- Transform-Origin is a css property to manipulate the x and y axis as the origin start at top left of the element.
+- For SVG animations, javascript works quite well.
+</details>
