@@ -1,6 +1,7 @@
 # Svg Essentials And Animation V2
 
 This repo hosts code/notes taken from the course https://frontendmasters.com/courses/svg-essentials-animation/
+This course is more of a theory and demo kind of course.
 
 <details>
   <summary>SVG Anatomy Overview</summary>
@@ -77,7 +78,7 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 - We should not animation with margin, left, top because they cause a repaint. use transform for positioning.
 - Hardware acceleration reading: https://css-tricks.com/debugging-css-keyframe-animations/, https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 - Tweenmax basic syntax `TweenMax .to/.from/.fromTo(htmlElementm, duration, {...options})`
-- GSAP cheatsheet: https://github.com/sdras/svg-workshop/blob/master/gsap-cheatsheet.js
+- Basic timeline example: https://github.com/sdras/svg-workshop/blob/master/gsap-basic-timeline.js
 - stagger: same sequence repeated after delay for subsequent elements.
 - Greensock and D3 play well together.
 - Timeline
@@ -91,3 +92,16 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 
 - Exercise to do : pick an svg and play with it using gsap.
   </details>
+
+<details>
+  <summary>UI/UX Animation</summary>
+
+- Context Switching reading: https://css-tricks.com/the-importance-of-context-shifting-in-ux-patterns/
+- Animation should be helping/guiding you do something.
+- GSAP cheatsheet: https://github.com/sdras/svg-workshop/blob/master/gsap-cheatsheet.js
+- Demos:
+
+  1. motion along the path: https://codepen.io/sdras/pen/MYQxXe
+  2. Curve and rotation : https://codepen.io/sdras/pen/PqEPqz
+
+</details>
