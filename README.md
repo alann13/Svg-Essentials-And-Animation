@@ -63,3 +63,31 @@ This repo hosts code/notes taken from the course https://frontendmasters.com/cou
 - Transform-Origin is a css property to manipulate the x and y axis as the origin start at top left of the element.
 - For SVG animations, javascript works quite well.
 </details>
+
+<details>
+  <summary>Greensock</summary>
+
+- Animation usage recommendations:
+
+  1. CSS: small sequences and simple interactions.
+  2. Start switching from css to another tool once you get more than 3 sequences.
+  3. GSAP: awesome for sequencing and complex movement.
+  4. React spring/ react-motion for movements that you'd like to look realistic.
+
+- We should not animation with margin, left, top because they cause a repaint. use transform for positioning.
+- Hardware acceleration reading: https://css-tricks.com/debugging-css-keyframe-animations/, https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
+- Tweenmax basic syntax `TweenMax .to/.from/.fromTo(htmlElementm, duration, {...options})`
+- GSAP cheatsheet: https://github.com/sdras/svg-workshop/blob/master/gsap-cheatsheet.js
+- stagger: same sequence repeated after delay for subsequent elements.
+- Greensock and D3 play well together.
+- Timeline
+
+  1.  Stack tweens.
+  2.  Set them a little before and after one another.
+  3.  Change their placement in time.
+  4.  Group them into scenes.
+  5.  Add relative labels.
+  6.  Animate the scenes.
+
+- Exercise to do : pick an svg and play with it using gsap.
+  </details>
